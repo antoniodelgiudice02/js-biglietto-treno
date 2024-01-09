@@ -1,7 +1,11 @@
 // chiedere all'utente il numero di chilometri che vuole percorrere. 
-const km =parseInt (prompt ('quanti chilometri vuoi viaggiare?')) 
+const km =parseInt (prompt ('quanti chilometri vuole percorrere il passeggero?')) 
 console.log (km)
+
 // chiedere all'utente l'età del passeggero.
+const age =parseInt (prompt ('quanti anni ha il passeggero?')) 
+console.log (age)
+
 // calcolare il prezzo totale del viaggio (0.21 € al km).
 
 // applicare sconto del 20% per i minorenni.
