@@ -8,9 +8,22 @@ console.log (age)
 
 // calcolare il prezzo totale del viaggio (0.21 € al km).
 const price = (km * 0.21)
-const humanPrice = parseInt(operation.toFixed(2))
-console.log (humanPrice)
 
 // applicare sconto del 20% per i minorenni.
 // applicare sconto del 40% per gli over 65.
+
+if (age < 18){
+    const sale20 = price - price * 20 / 100
+    console.log(sale20) 
+}
+
+if (age > 65){
+    const sale40 = price - price * 40 / 100
+    console.log(sale40) 
+}
+
 // stampare prezzo finale in forma umana (con massimo due decimali).
+
+//const humanPrice = parseInt(price.toFixed(2))
+//console.log (humanPrice)
+
